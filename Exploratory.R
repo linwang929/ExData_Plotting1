@@ -1,5 +1,7 @@
-## This script is to read the complete txt file into R, and find out the structure of the data
-## We can also find out how many rows to skip and to read the data from the dates 2007-02-01 to 2007-02-02
+## Run this script before all the other scripts for plotting for exploratory purposes.
+## It calculates how many rows to skip and to read when reading data from the dates 2007-02-01 to 2007-02-02
+
+## This script first reads the complete txt file into R, and then finds out the structure of the data
 ## Note that in this dataset the separator is semicolon ";"
 ## Note that in this dataset missing values are coded as question mark "?"
 ## as.is = TRUE can prevent read.table() from the conversion of character variables (Date and Time) to factors
